@@ -18,7 +18,7 @@
 - Todo任务：描述明天计划进行的工作任务。
 
 #### 导师的工作内容
-- [&#x2714;] git环境创建:<a href="https://git.woa.com/dreamanlan/spark_mf2024summer.git">当前实践git链接</a> 
+- [x] git环境创建:<a href="https://git.woa.com/dreamanlan/spark_mf2024summer.git">当前实践git链接</a> 
 - [ ] 约定每日同步会议的时间：尽量避开每日晨会及每周组会的时间，线上召开。
 - [ ] 确认第一周的任务
 
@@ -28,10 +28,6 @@
 
 <!--
 每天工作内容可以拆分的细一些
-
-约定习惯 
-- [&#x2716;]  [✖]
-- [&#x2714;]  [✔]
 -->
 
 <!--
