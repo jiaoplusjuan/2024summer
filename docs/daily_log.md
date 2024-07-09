@@ -26,6 +26,28 @@
 - 其他需要记录的事项或说明。
 
 
+### 日期: 2024-07-09
+
+#### 今日工作内容
+- [ ] 阅读bangaru2023slangd论文，完善笔记
+- [ ] 根据SLANG.D官网学习SLANG.D，跑通部分代码
+- [ ] 阅读Extracting Triangular 3D Models, Materials, and Lighting From Images，完善部分笔记。
+- [ ] 尝试配置tinycudann相关环境以跑通上述论文代码。
+#### 遇到的问题
+- 配置tinycudann环境出现问题
+
+#### 明日计划
+- 配置tinycudann
+- 跑通Extracting论文代码
+- 定下后续研究方向
+
+#### 导师的工作内容
+- [x] git环境创建:<a href="https://git.woa.com/dreamanlan/spark_mf2024summer.git">当前实践git链接</a> 
+- [ ] 约定每日同步会议的时间：尽量避开每日晨会及每周组会的时间，线上召开。
+- [ ] 确认第一周的任务
+
+#### 备注
+- 其他需要记录的事项或说明。
 <!--
 每天工作内容可以拆分的细一些
 -->
