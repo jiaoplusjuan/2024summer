@@ -6,6 +6,7 @@ import moderngl
 import pygame
 import glm
 from pygltflib import GLTF2
+import numpy as np
 os.environ['SDL_WINDOWS_DPI_AWARENESS'] = 'permonitorv2'
 
 pygame.init()
@@ -42,14 +43,14 @@ def get_type_info(type_value):
     else:
         return "Unknown type"
 
-component_types_size = {
-    5120: 1,  # GL_BYTE
-    5121: 1,  # GL_UNSIGNED_BYTE
-    5122: 2,  # GL_SHORT
-    5123: 2,  # GL_UNSIGNED_SHORT
-    5125: 4,  # GL_INT
-    5126: 4,  # GL_UNSIGNED_INT
-    5124: 4,  # GL_FLOAT
+component_type_mapping = {
+    5120: ('b', 'int8'),  # GL_BYTE -> Python: int, NumPy: int8
+    5121: ('B', 'uint8'),  # GL_UNSIGNED_BYTE -> Python: int, NumPy: uint8
+    5122: ('h', 'int16'),  # GL_SHORT -> Python: int, NumPy: int16
+    5123: ('H', 'uint16'), # GL_UNSIGNED_SHORT -> Python: int, NumPy: uint16
+    5125: ('i', 'int32'),  # GL_INT -> Python: int, NumPy: int32
+    5126: ('I', 'uint32'), # GL_UNSIGNED_INT -> Python: int, NumPy: uint32
+    5124: ('f', 'float32'),# GL_FLOAT -> Python: float, NumPy: float32
 }
 
 def handle_accessor(gltf:GLTF2, primitive, type):
@@ -110,12 +111,16 @@ class Scene:
         # 创建VBO和IBO
         self.vbo = self.ctx.buffer(position_data)  # 使用提取的顶点数据创建buffer
         self.ibo = self.ctx.buffer(indices_data)
-        print(self.ibo)
-        self.vao = self.ctx.vertex_array(self.program, [
-            (self.vbo, '3f', 'in_vertex'),
-        ],index_buffer=self.ibo)
-        print(position_data)
-        # self.vao.vertices = count
+        python_type = component_type_mapping[5123][0]  # 'I'
+        arr = np.frombuffer(indices_data, python_type)
+        arr=arr.astype('u4')
+        self.ibo = self.ctx.buffer(arr)
+        vao_content = [
+            # 2 floats are assigned to the 'in' variable named 'in_vert' in the shader code
+            self.vbo.bind('in_vertex', layout='3f'),
+        ]
+
+        self.vao = self.ctx.vertex_array(self.program, vao_content, self.ibo)
 
     def camera_matrix(self): # 设置相机
         now = pygame.time.get_ticks() / 1000.0
