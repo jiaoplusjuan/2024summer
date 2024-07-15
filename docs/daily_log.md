@@ -81,7 +81,7 @@
 - 完善三角形的渲染
 - 尝试法线贴图任务
 
-### 日期: 2024-07-11
+### 日期: 2024-07-12
 
 #### 今日工作内容
 - [ ] 阅读gltf中material内容
@@ -94,6 +94,21 @@
 #### 明日计划
 - 完成<a href="https://learnopengl.com/Advanced-Lighting/Normal-Mapping">的阅读
 - 完成多张纹理的贴图任务
+- 完善UV optimization论文阅读
+
+
+### 日期: 2024-07-15
+
+#### 今日工作内容
+- [ ] 阅读UV optimization论文
+- [ ] 尝试UV optimization代码
+#### 遇到的问题
+- 联合UV论文中$L_{diff}$如何理解
+- ψ是双射的保证方法
+- 联合UV中的参数信息比如$T_{D}$，$T_{l,m}$
+- 联合UV代码没跑通
+#### 明日计划
+- 跑通UV optimization论文代码
 - 完善UV optimization论文阅读
 <!--
 每天工作内容可以拆分的细一些
