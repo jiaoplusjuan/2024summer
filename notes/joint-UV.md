@@ -76,3 +76,9 @@ $$
 - Mesh Normalization：将网格变化在单元格中
 - Alternating Optimization：交替更新纹理和UV坐标
 ![](UV.png)
+
+5. Implementation Details
+- Texture Padding and Scaling：缩放UV坐标
+- Numerical Stability：使用对数指数技巧处理梯度，提出混合精度计算
+- Parameter Settings
+### 实验

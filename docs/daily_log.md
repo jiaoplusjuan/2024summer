@@ -92,7 +92,7 @@
 - 未弄明白多张纹理的使用方法
 
 #### 明日计划
-- 完成<a href="https://learnopengl.com/Advanced-Lighting/Normal-Mapping">的阅读
+- 完成<a href="https://learnopengl.com/Advanced-Lighting/Normal-Mapping"></a> 的阅读
 - 完成多张纹理的贴图任务
 - 完善UV optimization论文阅读
 
@@ -110,6 +110,18 @@
 #### 明日计划
 - 跑通UV optimization论文代码
 - 完善UV optimization论文阅读
+
+### 日期: 2024-07-16
+
+#### 今日工作内容
+- [ ] 阅读UV optimization论文
+- [ ] 初步阅读textureAtlas论文
+- [ ] 复现textureAtlas和UV optimization
+#### 遇到的问题
+- 复现textureAtlas和UV optimization出现环境问题（文件缺失）
+#### 明日计划
+- 尝试解决之前的问题：比如nvdiff等环境配置
+- 完善textureAtlas论文
 <!--
 每天工作内容可以拆分的细一些
 -->
