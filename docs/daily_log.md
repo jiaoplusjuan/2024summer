@@ -122,6 +122,20 @@
 #### 明日计划
 - 尝试解决之前的问题：比如nvdiff等环境配置
 - 完善textureAtlas论文
+
+### 日期: 2024-07-16
+
+#### 今日工作内容
+- [ ] 完善textureAtlas论文
+- [ ] 初步阅读Neural 3D Mesh Renderer论文
+- [ ] 回顾softras论文
+- [ ] 尝试更改softras论文代码：包括encoder和decoder层，有风格迁移思路
+#### 遇到的问题
+- 无
+#### 明日计划
+- 阅读Neural 3D Mesh Renderer论文
+- 阅读NMR的风格迁移工作寻找思路
+- 阅读nvdiffmodeling论文，跑通代码
 <!--
 每天工作内容可以拆分的细一些
 -->
