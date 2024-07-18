@@ -123,7 +123,7 @@
 - 尝试解决之前的问题：比如nvdiff等环境配置
 - 完善textureAtlas论文
 
-### 日期: 2024-07-16
+### 日期: 2024-07-17
 
 #### 今日工作内容
 - [ ] 完善textureAtlas论文
@@ -136,6 +136,18 @@
 - 阅读Neural 3D Mesh Renderer论文
 - 阅读NMR的风格迁移工作寻找思路
 - 阅读nvdiffmodeling论文，跑通代码
+
+### 日期: 2024-07-18
+
+#### 今日工作内容
+- [ ] 阅读nvdiffrast论文
+- [ ] 阅读nvdiffmodeling论文
+- [ ] 配置Windows下conda环境
+#### 遇到的问题
+- linux下运行nvdiffmodeling论文代码时出现问题
+#### 明日计划
+- 尝试在windowsa下运行nvdiffmodeling论文代码
+- 回顾nvdiffrast/nvdiffmodeling论文
 <!--
 每天工作内容可以拆分的细一些
 -->
