@@ -148,6 +148,16 @@
 #### 明日计划
 - 尝试在windowsa下运行nvdiffmodeling论文代码
 - 回顾nvdiffrast/nvdiffmodeling论文
+
+### 日期: 2024-07-19
+
+#### 今日工作内容
+- [ ] 配置jittor/stylegaussian环境
+- [ ] 复习渲染管线
+#### 遇到的问题
+- 环境配置失败
+#### 明日计划
+- 继续复习渲染管线
 <!--
 每天工作内容可以拆分的细一些
 -->
