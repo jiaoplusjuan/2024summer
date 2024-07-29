@@ -181,6 +181,50 @@
 #### 明日计划
 - 学习cuda编程
 - 读nvdiffrast中的cuda内容
+
+### 日期: 2024-07-24
+
+#### 今日工作内容
+- [ ] 学习cuda编程
+- [ ] 读nvdiffrast中的cuda内容
+#### 遇到的问题
+- cuda编程入门
+#### 明日计划
+- 继续学习cuda编程
+- 读stylegaussian，cuda代码
+
+### 日期: 2024-07-25
+
+#### 今日工作内容
+- [ ] 配置stylegaussian环境
+- [ ] 读render代码
+#### 遇到的问题
+- stylegaussian环境失败
+#### 明日计划
+- 继续stylegaussian环境
+- 读stylegaussian，cuda代码
+
+### 日期: 2024-07-26
+
+#### 今日工作内容
+- [ ] 配置windows的cuda环境
+- [ ] 找到text2mesh和3d-style diffusion
+#### 遇到的问题
+- windows的cuda环境配置失败
+#### 明日计划
+- 继续配置windows的cuda环境
+- 读text2mesh和3d-style diffusion相关内容
+
+### 日期: 2024-07-29
+
+#### 今日工作内容
+- [ ] 完成cuda环境配置
+- [ ] 配置text2mesh和3d-style diffusion论文环境
+#### 遇到的问题
+- 3d-style diffusion论文环境存在cache问题
+- 论文细节
+#### 明日计划
+- 阅读论文，跑通代码
 <!--
 每天工作内容可以拆分的细一些
 -->
